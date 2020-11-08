@@ -1,0 +1,1 @@
+insert into testdb.testtable (`c1`) values ('test1');
