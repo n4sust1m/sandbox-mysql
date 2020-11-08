@@ -1,4 +1,0 @@
-CREATE DATABASE IF NOT EXISTS testdb;
-CREATE TABLE IF NOT EXISTS testdb.testtable(
-  `c1` varchar(10)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;

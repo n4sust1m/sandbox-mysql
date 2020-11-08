@@ -3,11 +3,11 @@
 ## start
 
 ```.sh
-$ docker-compose build
+$ docker-compose build --no-cache
 $ docker-compose up -d
 ```
 
-## login in command line
+## login from command line
 
 ```.sh
 $ docker exec -it ${ container id } /bin/bash
@@ -16,3 +16,8 @@ $ docker exec -it ${ container id } /bin/bash
 $ mysql -u dbuser -p
 > enter dbuser password
 ```
+
+## login from other client
+
+IP Address: `127.0.0.1`
+Port: `3306`

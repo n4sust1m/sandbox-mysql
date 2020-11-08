@@ -1,0 +1,1 @@
+insert into example.user (`name`) values ('Charlie'), ('Robert');
